@@ -1,8 +1,15 @@
 ## react-playground
 
-Usage:
+### demo-react-site
 
+start development webserver.
+
+~~~console
+$ yarn start
 ~~~
-$ npm install
-$ npm run gulp
+
+or
+
+~~~console
+$ lerna run start --scope demo-react-site --stream --no-prefix
 ~~~
