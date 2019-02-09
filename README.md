@@ -1,5 +1,7 @@
 ## react-playground
 
+playground for react, redux, jest, gatsby, graphql, et al.
+
 ### demo-react-site
 
 start development webserver.
