@@ -5,11 +5,18 @@
 start development webserver.
 
 ~~~console
-$ yarn start
+$ yarn react:start
 ~~~
 
-or
+- view site in the browser: http://localhost:3030/
+
+### demo-gatsby-site
+
+start development webserver.
 
 ~~~console
-$ lerna run start --scope demo-react-site --stream --no-prefix
+$ yarn gatsby:start
 ~~~
+
+- view site in the browser: http://localhost:8000/
+- explore site's data and schema: http://localhost:8000/___graphql

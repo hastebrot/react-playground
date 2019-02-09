@@ -6,13 +6,15 @@
   "private": true,
   "license": "EUPL",
   "scripts": {
-    "start": "\"$npm_execpath\" run site:start",
-    "build": "\"$npm_execpath\" run site:build",
-    "test": "\"$npm_execpath\" run site:test",
+    "start": "\"$npm_execpath\" run react:start",
+    "build": "\"$npm_execpath\" run react:build",
+    "test": "\"$npm_execpath\" run react:test",
     "bootstrap": "lerna bootstrap",
-    "site:start": "lerna run start --stream --no-prefix --scope demo-react-site",
-    "site:build": "lerna run build --stream --no-prefix --scope demo-react-site",
-    "site:test": "lerna exec --scope demo-react-site -- \"$npm_execpath\" run test"
+    "react:start": "lerna run start --stream --no-prefix --scope demo-react-site",
+    "react:build": "lerna run build --stream --no-prefix --scope demo-react-site",
+    "react:test": "lerna exec --scope demo-react-site -- \"$npm_execpath\" run test",
+    "gatsby:start": "lerna run start --stream --no-prefix --scope demo-gatsby-site",
+    "gatsby:build": "lerna run build --stream --no-prefix --scope demo-gatsby-site"
   },
   "devDependencies": {
     "lerna": "^3.11.0"
