@@ -22,3 +22,13 @@ $ yarn gatsby:start
 
 - view site in the browser: http://localhost:8000/
 - explore site's data and schema: http://localhost:8000/___graphql
+
+### demo-docz-site
+
+start development webserver.
+
+~~~console
+$ yarn docz:start
+~~~
+
+- view site in the browser: http://localhost:3000/#/

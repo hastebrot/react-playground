@@ -15,10 +15,9 @@
     "bootstrap": "lerna bootstrap",
     "react:start": "lerna run start --stream --no-prefix --scope demo-react-site",
     "react:build": "lerna run build --stream --no-prefix --scope demo-react-site",
-    "react:test": "lerna exec --scope demo-react-site -- \"$npm_execpath\" run test",
     "gatsby:start": "lerna run start --stream --no-prefix --scope demo-gatsby-site",
     "gatsby:build": "lerna run build --stream --no-prefix --scope demo-gatsby-site",
-    "docz:start": "lerna run start --stream --no-prefix --scope demo-docz-site",
+    "docz:start": "lerna exec --scope demo-docz-site -- \"$npm_execpath\" run start",
     "docz:build": "lerna run build --stream --no-prefix --scope demo-docz-site"
   },
   "devDependencies": {
