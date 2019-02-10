@@ -5,6 +5,9 @@
   "author": "Benjamin Gudehus <hastebrot@gmail.com>",
   "private": true,
   "license": "EUPL",
+  "_workspaces": [
+    "packages/*"
+  ],
   "scripts": {
     "start": "\"$npm_execpath\" run react:start",
     "build": "\"$npm_execpath\" run react:build",
@@ -14,7 +17,9 @@
     "react:build": "lerna run build --stream --no-prefix --scope demo-react-site",
     "react:test": "lerna exec --scope demo-react-site -- \"$npm_execpath\" run test",
     "gatsby:start": "lerna run start --stream --no-prefix --scope demo-gatsby-site",
-    "gatsby:build": "lerna run build --stream --no-prefix --scope demo-gatsby-site"
+    "gatsby:build": "lerna run build --stream --no-prefix --scope demo-gatsby-site",
+    "docz:start": "lerna run start --stream --no-prefix --scope demo-docz-site",
+    "docz:build": "lerna run build --stream --no-prefix --scope demo-docz-site"
   },
   "devDependencies": {
     "lerna": "^3.11.0"
