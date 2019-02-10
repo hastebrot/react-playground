@@ -1,0 +1,14 @@
+{
+  "name": "docz-plugin-puppeteer",
+  "version": "0.0.0",
+  "author": "Benjamin Gudehus <hastebrot@gmail.com>",
+  "private": true,
+  "license": "EUPL",
+  "dependencies": {
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1",
+    "docz-core": "^0.13.7"
+  },
+  "devDependencies": {
+  }
+}
