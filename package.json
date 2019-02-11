@@ -18,7 +18,9 @@
     "gatsby:start": "lerna run start --stream --no-prefix --scope demo-gatsby-site",
     "gatsby:build": "lerna run build --stream --no-prefix --scope demo-gatsby-site",
     "docz:start": "lerna exec --scope demo-docz-site -- \"$npm_execpath\" run start",
-    "docz:build": "lerna run build --stream --no-prefix --scope demo-docz-site"
+    "docz:build": "lerna run build --stream --no-prefix --scope demo-docz-site",
+    "styleguidist:start": "lerna exec --scope demo-styleguidist-site -- \"$npm_execpath\" run start",
+    "styleguidist:build": "lerna run build --stream --no-prefix --scope demo-styleguidist-site"
   },
   "devDependencies": {
     "lerna": "^3.11.0"

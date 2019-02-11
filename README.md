@@ -32,3 +32,13 @@ $ yarn docz:start
 ~~~
 
 - view site in the browser: http://localhost:3000/#/
+
+### demo-styleguidist-site
+
+start development webserver.
+
+~~~console
+$ yarn styleguidist:start
+~~~
+
+- view site in the browser: http://localhost:6060/
