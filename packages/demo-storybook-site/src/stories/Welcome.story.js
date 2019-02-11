@@ -1,9 +1,15 @@
 import React from "react";
 import { storiesOf } from "@storybook/react";
+import ReactMarkdown from "react-markdown";
+
+const introduction = `
+# Welcome
+
+Welcome to the documentation.
+`
 
 storiesOf("Welcome", module).add("default", () => (
   <div>
-    <h1>Welcome</h1>
-    <p>Welcome to the documentation.</p>
+    <ReactMarkdown source={introduction} />
   </div>
 ));
