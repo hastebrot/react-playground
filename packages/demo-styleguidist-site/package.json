@@ -1,0 +1,34 @@
+{
+  "name": "demo-styleguidist-site",
+  "version": "0.0.0",
+  "author": "Benjamin Gudehus <hastebrot@gmail.com>",
+  "private": true,
+  "license": "EUPL",
+  "scripts": {
+    "start": "styleguidist server",
+    "build": "styleguidist build"
+  },
+  "dependencies": {
+    "@emotion/core": "^10.0.7",
+    "@emotion/styled": "^10.0.7",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1",
+    "react-typography": "^0.16.18",
+    "typography": "^0.16.18",
+    "typography-theme-kirkham": "^0.16.18"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-proposal-class-properties": "^7.3.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.3.2",
+    "@babel/plugin-transform-modules-commonjs": "^7.2.0",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "@types/node": "^10.12.24",
+    "@types/react": "^16.8.2",
+    "@types/react-dom": "^16.8.0",
+    "react-scripts": "=2.1.3",
+    "react-styleguidist": "=9.0.0-beta4",
+    "typescript": "^3.3.3"
+  }
+}
