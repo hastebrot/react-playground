@@ -8,5 +8,6 @@ export default {
     },
     showPlaygroundEditor: true,
   },
-  hashRouter: true
+  hashRouter: true,
+  codeSandbox: false,
 }
