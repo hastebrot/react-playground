@@ -33,6 +33,8 @@ $ yarn docz:start
 
 - view site in the browser: http://localhost:3000/#/
 
+![screen docz](docs/screen-docz.png)
+
 ### demo-storybook-site
 
 start development webserver.
@@ -43,6 +45,8 @@ $ yarn storybook:start
 
 - view site in the browser: http://localhost:9001/
 
+![screen docz](docs/screen-storybook.png)
+
 ### demo-styleguidist-site
 
 start development webserver.
@@ -52,3 +56,5 @@ $ yarn styleguidist:start
 ~~~
 
 - view site in the browser: http://localhost:6060/
+
+![screen docz](docs/screen-styleguidist.png)
