@@ -1,0 +1,32 @@
+{
+  "name": "demo-storybook-site",
+  "version": "0.0.0",
+  "author": "Benjamin Gudehus <hastebrot@gmail.com>",
+  "private": true,
+  "license": "EUPL",
+  "scripts": {
+    "start": "start-storybook -p 9001 -c .storybook/",
+    "build": "build-storybook -c .storybook/ -o build/"
+  },
+  "dependencies": {
+    "@emotion/core": "^10.0.7",
+    "@emotion/styled": "^10.0.7",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1",
+    "react-typography": "^0.16.18",
+    "typography": "^0.16.18",
+    "typography-theme-kirkham": "^0.16.18"
+  },
+  "devDependencies": {
+    "@types/node": "^10.12.24",
+    "@types/react": "^16.8.2",
+    "@types/react-dom": "^16.8.0",
+    "@types/storybook__react": "^4.0.0",
+    "@storybook/react": "^4.1.11",
+    "@storybook/addons": "^4.1.11",
+    "@storybook/addon-storysource": "^4.1.11",
+    "@babel/core": "^7.2.2",
+    "babel-loader": "^8.0.5",
+    "typescript": "^3.3.3"
+  }
+}
