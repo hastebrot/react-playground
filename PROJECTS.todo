@@ -1,0 +1,77 @@
+react:
+  ☐ https://reactjs.org/blog/2019/02/06/react-v16.8.0.html
+
+react scripts:
+  ☐ https://github.com/facebook/create-react-app/tree/master/packages/react-scripts
+  ☐ https://github.com/Quramy/lerna-yarn-workspaces-example
+
+gatsby:
+  ☐ https://www.gatsbyjs.org/tutorial/part-four/
+
+typography:
+  Typography.js. A powerful toolkit for building websites with beautiful design.
+  ☐ https://github.com/KyleAMathews/typography.js
+
+emotion:
+  Emotion is a performant and flexible CSS-in-JS library. Building on many other CSS-in-JS libraries, it allows you to style apps quickly with string or object styles. It has predictable composition to avoid specificity issues with CSS. With source maps and labels, Emotion has a great developer experience and great performance with heavy caching in production.
+  ☐ https://emotion.sh/docs/introduction
+  ☐ https://github.com/emotion-js/emotion
+
+docz:
+  Storybook does, however, have some flaws. The docs generally provide a great developer experience but are not ideal for design systems targeting designers or other business stakeholders. Storybook sites also tend to look pretty boring and you can't currently use MDX, a transformative technology that makes writing documentation in addition to component demos extremely fast and concise.
+  ☐ https://github.com/pedronauck/docz
+  ☐ https://www.docz.site/introduction
+
+  plugins.
+  ☐ https://github.com/hydrateio/docz-plugin-storybook
+  ☐ https://github.com/JosephConradBlack/docz-plugin-snapshots
+
+  examples.
+  ☐ https://circuit.sumup.com/#/
+
+  projects.
+  ☐ https://github.com/storybooks/storybook (the workshop)
+  ☐ https://github.com/styleguidist/react-styleguidist (the storefront)
+
+  articles.
+  ☐ https://blog.hichroma.com/storybook-vs-styleguidist-2bd93d6dcc06
+  ☐ http://bradfrost.com/blog/post/the-workshop-and-the-storefront/
+  ☐ https://blog.hichroma.com/the-crucial-tool-for-modern-frontend-engineers-fb849b06187a
+
+mdx:
+  Markdown for the component era. MDX is a format that lets you seamlessly use JSX in your Markdown documents. You can import components, like interactive charts or notifs, and export metadata. This makes writing long-form content with components a blast.
+  ☐ https://mdxjs.com/
+  ☐ https://github.com/mdx-js/mdx
+
+  vscode extension.
+  ☐ https://github.com/silvenon/vscode-mdx
+  ☐ https://www.youtube.com/watch?v=d2sQiI5NFAM
+
+  >MDX is markdown for the component era. It lets you write JSX embedded inside markdown. That’s a great combination because it allows you to use markdown’s often terse syntax (such as # heading) for the little things and JSX for more advanced components.
+
+remark and rehype:
+  ☐ https://github.com/remarkjs/remark
+  ☐ https://github.com/rehypejs/rehype
+
+fannypack:
+  Fannypack. A friendly, themeable, accessible React UI Kit built with Reakit.
+  ☐ https://fannypack.style/
+
+  Reakit. Toolkit for building really interactive UIs with React.
+  ☐ https://reakit.io/components/
+
+webpack and babel:
+  ☐ https://github.com/webpack/webpack
+  ☐ https://github.com/babel/babel
+
+jest:
+  ☐ https://jestjs.io/
+  ☐ https://github.com/facebook/jest
+
+graphql:
+  ☐ https://graphql.org/
+  ☐ https://github.com/kumarharsh/graphql-for-vscode
+
+prettier:
+  ☐ https://github.com/prettier/prettier
+  ☐ https://github.com/prettier/prettier-vscode
