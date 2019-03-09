@@ -25,6 +25,6 @@
     "styleguidist:build": "lerna run build --stream --no-prefix --scope demo-styleguidist-site"
   },
   "devDependencies": {
-    "lerna": "^3.11.0"
+    "lerna": "^3.13.1"
   }
 }
