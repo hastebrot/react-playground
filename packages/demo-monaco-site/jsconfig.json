@@ -1,10 +1,13 @@
 {
-  "typeAcquisition": {
-    "include": [
-      "jest"
-    ]
-  },
   "compilerOptions": {
-    "experimentalDecorators": true
-  }
+    "target": "es2017",
+    "lib": ["es2017"],
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "node"
+  },
+  "typeAcquisition": {
+    "include": ["jest"]
+  },
+  "exclude": ["node_modules/", "!node_modules/@types/"]
 }
