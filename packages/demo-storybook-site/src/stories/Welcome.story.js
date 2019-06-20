@@ -1,6 +1,6 @@
-import React from "react";
-import { storiesOf } from "@storybook/react";
-import ReactMarkdown from "react-markdown";
+import React from "react"
+import { storiesOf } from "@storybook/react"
+import ReactMarkdown from "react-markdown"
 
 const introduction = `
 # Welcome
@@ -12,4 +12,4 @@ storiesOf("Welcome", module).add("default", () => (
   <div>
     <ReactMarkdown source={introduction} />
   </div>
-));
+))
