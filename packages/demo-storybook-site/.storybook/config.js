@@ -13,5 +13,5 @@ addParameters({
   },
 })
 
-load(require.context("../src", true, /\.story\.js$/), module)
-load(require.context("../src", true, /\.story\.mdx$/), module)
+load(require.context("../src", true, /\.stories\.js$/), module)
+load(require.context("../src", true, /\.stories\.mdx$/), module)
