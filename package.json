@@ -22,8 +22,8 @@
     "gatsby:build": "lerna run build --stream --no-prefix --scope demo-gatsby-site",
     "docz:start": "lerna exec --scope demo-docz-site -- \"$npm_execpath\" run start",
     "docz:build": "lerna run build --stream --no-prefix --scope demo-docz-site",
-    "storybook:start": "lerna exec --scope demo-storybook-site-new -- \"$npm_execpath\" run start",
-    "storybook:build": "lerna exec --scope demo-storybook-site-new -- \"$npm_execpath\" run build",
+    "storybook:start": "lerna exec --scope demo-storybook-site -- \"$npm_execpath\" run start",
+    "storybook:build": "lerna exec --scope demo-storybook-site -- \"$npm_execpath\" run build",
     "styleguidist:start": "lerna exec --scope demo-styleguidist-site -- \"$npm_execpath\" run start",
     "styleguidist:build": "lerna run build --stream --no-prefix --scope demo-styleguidist-site"
   },
