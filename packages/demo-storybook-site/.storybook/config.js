@@ -1,16 +1,17 @@
-import { configure } from "@storybook/react"
-import { setOptions } from "@storybook/addon-options"
+import { load, addParameters } from "@storybook/react"
+import { themes } from "@storybook/theming"
 import { version } from "../package.json"
 
-function loadStories() {
-  require("../src/stories/Welcome.story.js")
-  require("../src/stories/Button.story.js")
-}
-
-configure(loadStories, module)
-
-setOptions({
-  name: `storybook site v${version}`,
-  showAddonPanel: false,
-  sidebarAnimations: false,
+addParameters({
+  options: {
+    name: `storybook site v${version}`,
+    theme: themes.light,
+    isToolshown: true,
+    showPanel: false,
+    sidebarAnimations: false,
+    storySort: (a, b) => a[1].id.localeCompare(b[1].id),
+  },
 })
+
+load(require.context("../src", true, /\.story\.js$/), module)
+load(require.context("../src", true, /\.story\.mdx$/), module)
