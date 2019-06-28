@@ -1,9 +1,9 @@
 {
   "name": "demo-react-site",
   "version": "0.0.0",
+  "license": "EUPL",
   "author": "Benjamin Gudehus <hastebrot@gmail.com>",
   "private": true,
-  "license": "EUPL",
   "scripts": {
     "start": "craco start",
     "build": "craco build",
