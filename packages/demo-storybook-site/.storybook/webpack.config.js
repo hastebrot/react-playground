@@ -1,9 +1,14 @@
 const path = require("path")
 
-module.exports = ({ config, mode }) => {
+module.exports = async ({ config }) => {
   config.module.rules.push({
-    test: [/\.stories\.js$/, /index\.js$/, /[A-Z]*\.story\.js/],
-    loaders: [require.resolve("@storybook/addon-storysource/loader")],
+    test: /\.stories\.js$/,
+    loaders: [
+      {
+        loader: require.resolve("@storybook/addon-storysource/loader"),
+        options: { injectParameters: true },
+      },
+    ],
     include: [path.resolve(__dirname, "../src")],
     enforce: "pre",
   })
